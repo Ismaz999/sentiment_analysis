@@ -3,7 +3,9 @@
 ## Description
 Ce dépôt contient un script Python pour l'analyse de sentiments en utilisant BERT (Bidirectional Encoder Representations from Transformers) de Hugging Face. L'objectif de l'analyse de sentiments est de déterminer le sentiment exprimé dans un texte donné, qu'il soit positif ou négatif. BERT est un modèle de langage puissant qui peut fournir des informations précieuses sur le sentiment des données textuelles.
 
-Dans ce projet, nous utilisons le dataset "IMDB Dataset of 50K Movie Reviews", qui contient des avis de films étiquetés comme positifs ou négatifs. Nous prétraitons les données, les divisons en ensembles d'entraînement et de test, puis nous entraînons le modèle BERT pour prédire le sentiment des avis de films.
+Dans ce projet, nous utilisons le dataset "IMDB Dataset of 50K Movie Reviews", qui contient des avis de films étiquetés comme positifs ou négatifs. Vous pouvez télécharger le jeu de données en cliquant [ici](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews?datasetId=134715&sortBy=voteCount)
+
+Nous prétraitons les données, les divisons en ensembles d'entraînement et de test, puis nous entraînons le modèle BERT pour prédire le sentiment des avis de films.
 
 ## Dépendances
 Avant d'exécuter le script, assurez-vous d'installer les dépendances requises. Vous pouvez les installer avec `pip` en utilisant la commande suivante:
