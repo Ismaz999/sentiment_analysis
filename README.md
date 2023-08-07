@@ -40,14 +40,14 @@ Pour utiliser le script d'analyse de sentiments, suivez ces étapes :
 Vous pouvez ajuster les paramètres suivants dans sentiment_analysis.py pour répondre à vos besoins spécifiques :
 - `num_reviews` : Le nombre d'avis à échantillonner à partir du jeu de données pour l'analyse.
 - `batch_size` : La taille de chaque lot d'entraînement pour le modèle BERT.
-- `num_epochs` : Le nombre d'époques d'entraînement pour le modèle BERT.
+- `num_epochs` : Le nombre d'epoch d'entraînement pour le modèle BERT. (Une epoch correspond à un passage du modèle sur l'ensemble de l'échantillon sélectionné)
 - `learning_rate` : Le taux d'apprentissage utilisé par l'optimiseur pendant l'entraînement.
 - `test_size` : Le pourcentage de données à utiliser pour les tests lors du processus de division des données.
 
 ## Note importante
-Veuillez ajuster la taille du lot (batch size), le nombre d'époques (epochs) et le taux d'apprentissage en fonction de votre jeu de données spécifique et des ressources informatiques disponibles. De plus, envisagez de modifier le processus de nettoyage ou d'utiliser un autre tokenizer en fonction de la nature de votre jeu de données.
+Veuillez ajuster la taille du lot (batch size), le nombre d'epochs et le taux d'apprentissage en fonction de votre jeu de données spécifique et des ressources informatiques disponibles. De plus, envisagez de modifier le processus de nettoyage ou d'utiliser un autre tokenizer en fonction de la nature de votre jeu de données.
 
 ## Résultats et Évaluation
 Le script fournit les sorties suivantes :
-- Progrès de l'entraînement : Le script affiche la perte d'entraînement pour chaque époque pendant le processus d'entraînement.
+- Progrès de l'entraînement : Le script affiche la perte d'entraînement pour chaque epoch pendant le processus d'entraînement.
 - Évaluation du modèle : Après l'entraînement, le script affiche l'exactitude du modèle sur l'ensemble de test et affiche une matrice de confusion pour évaluer ses performances.
